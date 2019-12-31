@@ -12,6 +12,5 @@ b = input()
 
 print('The XOR gate value is:')
 
-c = (a and not b) or (not a and b)
+print(((a and (not b)) or ((not a) and b)))
 
-print(c)
