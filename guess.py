@@ -35,3 +35,4 @@ elif user_decision == 'No' or user_decision == 'no' or user_decision == 'N' or u
     print('NVM, You can try anytime again!')
 else:
     print('Try again.')
+input()
