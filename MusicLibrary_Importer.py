@@ -5,7 +5,7 @@ api = Mobileclient()
 
 api.oauth_login(device_id=Mobileclient.FROM_MAC_ADDRESS, oauth_credentials='path_to_OAuth_Token', locale='en_IN')
 
-#   --- COMMAND TO GET SONGS ---
+#   --- CODE TO GET SONGS ---
 
 songs = api.get_all_songs(incremental=False, include_deleted=None, updated_after=None)
 
