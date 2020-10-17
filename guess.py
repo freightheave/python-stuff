@@ -26,7 +26,7 @@ def guess():
 
 print('Hello there! What is your name?')
 name = input()
-print('Hi '+name+'. Do you want to take a guess at the number I\'m thinking?')
+print('Hi '+name+'. Do you want to take a guess at the number I\'m thinking of?')
 user_decision=input()
 if user_decision == 'Yes' or user_decision == 'yes' or user_decision == 'Y' or user_decision == 'y':
     print('Noice!')
