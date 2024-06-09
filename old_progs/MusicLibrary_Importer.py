@@ -1,3 +1,4 @@
+#google play music is deprecated donot use this anymore!
 import csv
 from gmusicapi import Mobileclient
 

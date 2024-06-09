@@ -19,15 +19,17 @@ print(list)
 # O(n^2)
 
 def bubSort(listArg):
-    for i in range(randLen):
+    for i in range(len(listArg)):
         swapped = False #initialise to false as no swaps have happened
-        for j in range (0, randLen-i-1): #-1 because array indices start from 0
+        for j in range(0, len(listArg)-i-1): #-1 because array indices start from 0
             if listArg[j] > listArg[j+1]:
                 (listArg[j], listArg[j+1]) = (listArg[j+1], listArg[j]) 
                 #just swap if i+1 < i
                 swapped = True 
         if swapped == False:
-            break        
+            #if control comes out of J loop with swapped = false, 
+            # it means all swaps have happened.
+            break    
 
 bubSort(list)
 print("sorted list is -")

@@ -36,6 +36,10 @@
 # Exponentiation (x**y, x to the yth power)
 2**3  # => 8
 
+# Increment/Decrement operators are slightly different
+x += 1
+x -= 1
+
 # Enforce precedence with parentheses
 1 + 3 * 2    # => 7
 (1 + 3) * 2  # => 8
